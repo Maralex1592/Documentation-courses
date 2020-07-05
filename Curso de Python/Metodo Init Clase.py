@@ -14,7 +14,6 @@ class Empleado:
         else:
             print("No paga impuestos")
 
-
 # bloque principal
 
 empleado1=Empleado()
