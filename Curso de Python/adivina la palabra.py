@@ -2,7 +2,7 @@
 import random
 
 
-class Iguess():
+"""class Iguess():
 
     def __init__(self, WORDS, countdown, selected_word):
         self.WORDS = WORDS
@@ -16,7 +16,7 @@ class Iguess():
 	public void setSelected_word(Object selected_word) {
 		this.selected_word = selected_word;
 	}
-
+"""
 
 
 WORDS = ['SUNDOWN', 'MORNING', 'FIELDS', 'ENOUGHT', 'EVERYITHING', 'CHANGES']
