@@ -108,9 +108,7 @@ def main():
             
             if tries == 7:
                 display_board(hidden_word, tries)
-                print('')
-                print('Perdistes! La palabra era {}'.format(word))
-                break
+                return False
                 
         else:
             for idx in letter_indexes:
@@ -120,8 +118,7 @@ def main():
         try:
             hidden_word.index('*__*')
         except ValueError:
-            print('')
-            print('Felicidaes! La palabra era {}'.format(word))
+            return True
         
 
 
