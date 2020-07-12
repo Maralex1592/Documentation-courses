@@ -8,4 +8,7 @@ python3 -m venv Servidor
 pip freeze 
 
 #Install flask package
-pip install flask 
+pip install flask
+
+#Install dependences from extenarl files "requirements.txt"
+pip install -r requirements.txt
