@@ -1,0 +1,11 @@
+#show pip version
+pip --version
+
+#Install venv in "Servidor" folder
+python3 -m venv Servidor
+
+#Show installed packages
+pip freeze 
+
+#Install flask package
+pip install flask 
