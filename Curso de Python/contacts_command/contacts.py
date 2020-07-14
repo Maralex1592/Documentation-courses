@@ -57,7 +57,6 @@ class ContactBoook:
             for contact in self._contacts:
                 writer.writerow((contact.name, contact.phone, contact.email))
 
-
 def main():
 
     contact_book = ContactBoook()
